@@ -1,0 +1,73 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-item {
+    position: relative;
+}
+
+.banner-item .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 24px;
+    padding: 50px 100px;
+}
+
+.slick-prev {
+    left: 50px;
+    z-index: 999;
+}
+
+.slick-prev:before,
+.slick-next::before {
+    font-size: 30px;
+}
+
+.slick-next {
+    right: 50px;
+}
+
+header {
+    padding: 15px 0;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    padding: 10px 15px;
+    background: #eee;
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 5px;
+    transition: all linear 0.3s;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    background: red;
+    color: #fff;
+}
+
+.process {
+    padding: 50px 0;
+    background: #ccc;
+}
+
+.process .section-title {
+    text-align: center;
+}
+
+.process-card {
+    background: black;
+    padding: 15px;
+    color: #fff;
+}
